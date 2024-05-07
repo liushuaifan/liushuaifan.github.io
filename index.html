@@ -1,14 +1,67 @@
 <!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <meta charset='utf-8' />
-    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
-    </script>
-    <script src="script.js"></script>
-
-  </head>
-  <body>
-    <button id="button"> generate calendar</button>
-    <div id='calendar'></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simonfan个人网站</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Simon 范</h1>
+        <p class="subtitle">7年留学生涯，2年辅导经验，用心教学 <br> 微信simonfan1998 </p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#resume">我的背景</a></li>
+            <li><a href="#courses">教学科目</a></li>
+            <li><a href="#contact">联系方式</a></li>
+        </ul>
+    </nav>
+    
+    <section id="resume">
+        <h2>教育背景</h2>
+        <!-- Add your resume content here -->
+        <p>UIUC本科精算，USC研究生CS，在学校里当过三年助教，有丰富教学经验，对学生教学认真负责，课上让学生听懂，课后积极答疑</p>
+        中文简历 <a href="china.pdf" target="_blank">点这里</a>
+        英文简历 <a href="eng.pdf" target="_blank">点这里</a>
+    </section>
+    
+    <section id="courses">
+        <h2>教学科目</h2>
+        <div class="course-container">
+            <div class="high-school">
+                <h3>高中辅导科目</h3>
+                <ul>
+                    <li>AP微积分先修，AP 微积分ab，微积分bc,algebra1,algebra2, geometry辅导过20+学生，对题型和知识点非常熟悉</li>
+                    <li>AP Statistics 统计，熟练掌握相关知识，有丰富教学经验</li>
+                    <li>AP Computer Science A 电脑科学， 辅导过10+ 学生，成绩提分明显，</li>
+                    <li>AP Computer Science Principles 电脑科学, 辅导过5个学生，和学生一起写project拿到高分 </li>      
+                </ul>
+            </div>
+            <div class="university">
+                <h3>大学辅导科目</h3>
+                <ul>
+                    <li>熟悉基础级cs的科目，辅导过10+大学生入门java，python，html, jacscript 入门科目</li>
+                    <li>10+学生 每周辅导微积分1，2，3 熟悉教学知识</li>
+                    <li>有每周辅导过5+ 学生一整个学期大一的统计知识，确保期末拿A</li> 
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>联系方式</h2>
+        <!-- Add your contact information here -->
+        <p>邮件: lf4@illinois.edu</p>
+        <p id = "weixin">微信：simonfan1998</p>
+        <!-- Add more contact details as needed -->
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Simon范</p>
+    </footer>
+</body>
 </html>
