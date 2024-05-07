@@ -1,0 +1,101 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: lightblue;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 5px;
+    color: green;
+}
+
+#weixin {
+    color: red;
+}
+
+nav {
+    background-color: #343a40;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+section {
+    padding: 5px 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: green;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+}
+
+.high-school,
+.university {
+    flex: 1;
+    padding: 20px;
+}
+
+.high-school h3,
+.university h3 {
+    color: #007bff;
+}
