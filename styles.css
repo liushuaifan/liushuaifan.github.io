@@ -86,19 +86,37 @@ a:hover {
 
 .course-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .high-school,
 .university {
-    width: 100%;
+    width: calc(50% - 20px);
     padding: 20px;
     box-sizing: border-box;
+}
+
+.high-school {
+    order: 1; /* Places high school section first on mobile */
+}
+
+.university {
+    order: 2; /* Places university section second on mobile */
 }
 
 .high-school h3,
 .university h3 {
     color: #007bff;
 }
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .high-school,
+    .university {
+        width: 100%; /* Full width on small screens */
+        order: initial; /* Revert to original order */
+    }
+}
+
 
